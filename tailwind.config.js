@@ -1,7 +1,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Rubik", "sans-serif"],
+      },
+      spacing: {
+        18: '4.5rem',
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp')
+  ],
 }
