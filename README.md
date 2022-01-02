@@ -1,9 +1,9 @@
 # Gallery Page using Tailwind CSS
 
 
-## Screenshot
-
 Recreated from the [Gallery Page using Tailwind CSS | Speed Code](https://youtu.be/LxugPsGXEE8)
+
+## Screenshot
 
 ![screenshot](screenshot.png)
 
