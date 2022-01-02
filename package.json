@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-gallery-page",
+  "version": "1.0.0",
+  "description": "Gallery Page using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "watch": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnoma-soz/tailwind-gallery-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barnoma-soz/tailwind-gallery-page/issues"
+  },
+  "homepage": "https://github.com/barnoma-soz/tailwind-gallery-page#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}
